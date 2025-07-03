@@ -1,0 +1,123 @@
+.dashboard-header {
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #111;
+  color: white;
+  z-index: 10;
+}
+
+.dashboard-left {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.dashboard-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dashboard-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid red;
+}
+
+.dashboard-welcome {
+  margin: 0 0.5rem;
+}
+
+.dashboard-logout {
+  display: flex;
+  align-items: center;
+  color: red;
+  cursor: pointer;
+  font-weight: bold;
+  gap: 0.25rem;
+  font-size: 0.95rem;
+}
+
+.sidebar {
+  left: 0;
+  height: 100%;
+  width: 60px;
+  background-color: #b90000;
+  color: white;
+  transition: width 0.2s ease;
+  overflow: hidden;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar:hover {
+  width: 250px;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 6rem;
+}
+
+.nav-links li {
+  padding: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  color: #fff;
+  transition: background 0.3s;
+  white-space: nowrap;
+}
+
+.nav-links li:hover,
+.nav-links li.active {
+  background-color: #910000;
+}
+
+.activity-title {
+  font-size: 1.6rem;
+  border-bottom: 1px solid #555;
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.6rem;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  margin-top: 0;
+}
+
+.activity-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  color: #eee;
+  overflow-y: auto;
+}
+
+.activities-container {
+  background-color: #333; /* dark grey */
+  border-radius: 4px;
+  padding: 1rem;
+  margin-top: 1rem;
+  color: white;
+  max-height: 500px;
+  overflow-y: auto;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.label {
+  display: inline-block;
+  width: 100%;
+}

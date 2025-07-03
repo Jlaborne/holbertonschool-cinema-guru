@@ -1,0 +1,45 @@
+.auth-wrapper {
+  background: white;
+  max-width: 400px;
+  margin: 5rem auto;
+  border-radius: 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.auth-header {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.auth-body {
+  padding: 2rem;
+}
+
+.auth-toggle-btn {
+  flex: 1;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-size: 1rem;
+}
+
+.auth-toggle-btn.active {
+  background-color: #cc0000;
+  color: white;
+}
+
+.auth-toggle-btn:not(.active) {
+  background-color: #9c0303;
+  color: white;
+}
+
+.submit-container {
+  text-align: right;
+  margin-top: 1rem;
+}

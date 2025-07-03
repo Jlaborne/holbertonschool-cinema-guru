@@ -1,0 +1,26 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.dashboard-header {
+  height: 60px;
+  flex-shrink: 0;
+}
+
+.dashboard-content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 60px;
+  flex-shrink: 0;
+}
+
+.main-view {
+  flex: 1;
+  overflow-y: auto;
+}
